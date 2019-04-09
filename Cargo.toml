@@ -1,0 +1,16 @@
+[package]
+name = "space-plot"
+version = "0.1.0"
+authors = ["Rich Infante <rich@richinfante.com>"]
+edition = "2018"
+
+[lib]
+name = "space_plot"
+path = "src/lib.rs"
+
+[[bin]]
+name = "space_plot_bin"
+path = "src/main.rs"
+
+[dependencies]
+colored = "1.7"
